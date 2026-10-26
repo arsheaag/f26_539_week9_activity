@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  color: #202124;
+  background-color: #f1f5f3;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header,
+footer {
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #173f35;
+  text-align: center;
+}
+
+main {
+  max-width: 60rem;
+  margin: 2rem 1rem;
+}
+
+.library-feature {
+  /* MOBILE: Turn this into a Flexbox container. */
+
+  /* MOBILE: Stack the image and text vertically. */
+
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.library-feature img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.feature-text h1,
+.feature-text p {
+  margin-top: 0;
+}
+
+.label {
+  color: #735c0f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.feature-text a {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  background-color: #735c0f;
+  font-weight: bold;
+}
+
+.feature-text a:focus-visible {
+  outline: 0.2rem solid #005ea8;
+  outline-offset: 0.2rem;
+}
+
+/* TABLET: Add a min-width: 600px media query. */
+/* Change the card to a row and set the image width to 40%. */
+
+
+/* DESKTOP: Add a min-width: 900px media query. */
+/* Set the image width to 30% and increase the gap to 2rem. */
