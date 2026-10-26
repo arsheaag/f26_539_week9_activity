@@ -22,6 +22,7 @@ main {
 .library-feature {
   /* MOBILE: Turn this into a Flexbox container. */
 
+
   /* MOBILE: Stack the image and text vertically. */
 
   gap: 1rem;
@@ -63,6 +64,30 @@ main {
 /* TABLET: Add a min-width: 600px media query. */
 /* Change the card to a row and set the image width to 40%. */
 
+@media (min-width: 600px) {
+  .library-feature {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .library-feature img {
+    width: 40%;
+  }
+
+  .feature-text {
+    flex: 1;
+  }
+}
 
 /* DESKTOP: Add a min-width: 900px media query. */
 /* Set the image width to 30% and increase the gap to 2rem. */
+
+@media (min-width: 900px) {
+  .library-feature {
+    gap: 2rem;
+  }
+
+  .library-feature img {
+    width: 30%;
+  }
+}
