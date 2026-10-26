@@ -21,7 +21,8 @@ main {
 
 .library-feature {
   /* MOBILE: Turn this into a Flexbox container. */
-
+  display: flex;
+  flex-direction: column;
 
   /* MOBILE: Stack the image and text vertically. */
 
